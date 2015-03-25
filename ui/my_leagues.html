@@ -49,7 +49,7 @@
                                   <th class="hidden-phone"><i class="fa fa-bullhorn"></i> League</th>
                                   <th><i class="fa fa-bookmark"></i> Team</th>
                                   <th><i class="fa fa-question-circle"></i> Type</th>
-                                  <th class="hidden-phone"><i class="fa fa-dollar"></i> Wager</th>
+                                  <th class="hidden-phone"><i class="fa fa-dollar"></i> Renewal</th>
                                   <th><i class=" fa fa-edit"></i> Status</th>
                                   <th></th>
                               </tr>
@@ -64,11 +64,11 @@
                                   </td>
                                   <td>{{ trim(@team.team_name) }}</td>
                                   <td>16EE</td>
-                                  <td class="hidden-phone">$100.00</td>
+                                  <td class="hidden-phone">${{ trim(@team.billamtv) }}</td>
                                   <td><span class="label label-success label-mini" onClick="javascript:(alert('EZ Renewal Process. Coming Soon!'))">Paid</span></td>
                                   <td>
                                       <button class="btn btn-primary btn-xs" onClick="javascript:(alert('Quick Set your rosters. Coming soon!'))"><i class="fa fa-pencil"></i></button>
-                                      <button class="btn btn-danger btn-xs" onClick="javascript:(alert('List your team on the auction. coming soon.'))"><i class="fa fa-dollar" ></i></button>
+                                      <!--button class="btn btn-danger btn-xs" onClick="javascript:(alert('List your team on the auction. coming soon.'))"><i class="fa fa-dollar" ></i></button-->
                                   </td>
                               </tr>
                               </repeat>
