@@ -55,6 +55,7 @@ $f3->route('GET /my-leagues', 'League->myLeagues');
 $f3->route('GET /my-drafts', 'League->myDrafts');
 $f3->route('GET /start-a-league', 'League->startLeague');
 $f3->route('GET /buy-an-orphan', 'League->listOrphans');
+$f3->route('GET /list-players/@lgid/@side/@pos/@first/@last', 'League->listPlayers');
 
 $f3->route('GET /other-gaming',
 	function($f3) {

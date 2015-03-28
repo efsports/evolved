@@ -3323,7 +3323,7 @@ table.sliders tr td {
     left: -63%;
 }
 .has-switch > div.switch-off label {
-    background-color: #7f8c9a;
+    background-color: #C04B52;
     border-color: #bdc3c7;
     -webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.5);
     -moz-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.5);
@@ -3333,7 +3333,7 @@ table.sliders tr td {
     left: 0%;
 }
 .has-switch > div.switch-on label {
-    background-color: #41cac0;
+    background-color: #C04B52;
 }
 .has-switch input[type=checkbox] {
     display: none;
@@ -3364,7 +3364,7 @@ table.sliders tr td {
 .has-switch span.switch-left {
     border-radius: 30px 0 0 30px;
     background-color: #2A3542;
-    color: #41cac0;
+    color: #fff;
     border-left: 1px solid transparent;
 }
 .has-switch span.switch-right {
